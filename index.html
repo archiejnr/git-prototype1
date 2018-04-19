@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="js/jquery.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/prototype.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Andika' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=AlegreyaSans' rel='stylesheet'>
+	<title style="font-style:italic;">
+			mobile Prototype
+	</title>
+	<style>
+	
+
+	</style>
+</head>
+<body>
+	<nav class="nav"><div class="NavOption"><img class="menuIcon" src="icons/menu.png" width="50" height="50"></div> <div class="logo">LOGO OR NAME</div></nav>
+	<nav class="sidenav">
+		<div class="NavIcon">
+			<img src="icons/closeMenu.png" width="50" height="50" class="close"> 
+		</div>
+	</nav>
+	<main class="main">
+	
+	</main>
+	<footer class="footer">
+		<div class="iconContainer">
+			<div class="icon first">
+				<img src="icons/12.png" width="55" height="55">
+			</div>
+			<div class="icon second">
+				<img src="icons/2.png" width="55" height="55">
+			</div>
+			<div class="icon third">
+				<img width="55" height="55" src="icons/4.png" >
+			</div>
+		</div>
+	</footer>
+	<div class="notification">
+								THIS IS A MOBILE VERSION PROTOTYPE AND CANNOT BE DISPLAYED ON THIS VIEWPORT
+								USE A MOBILE DEVICE OR OPEN DEV TOOLS TO VIEW IT.
+	<div>Icons made by 
+	<a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a>
+	from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> 
+	is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+	</div>
+	
+	</div>
+	<script>
+		$(document).ready(function () {
+									let options=$('.menuIcon');
+									let  sidenav=$('.sidenav');
+									let  close=$('.close'); 
+									/*the following are the footer icons*/
+									let  firstIcon=$('.first');
+									let  secondIcon=$('.second');
+									let  thirdIcon=$('.third');
+									
+									
+									
+									options.click(function () {
+																sidenav.css('transform','translate(0%,0)');
+																});
+									close.click(function () {
+																sidenav.css('transform','translate(-100%,0)');
+																});
+									firstIcon.click(function () {
+																alert('hello');
+																});
+									secondIcon.click(function () {
+																alert('hello');
+																});
+									thirdIcon.click(function () {
+																alert('hello');
+																});
+			
+									
+		
+		
+		});
+		
+		
+		
+		
+			
+		
+</script>
+</body>
+
+</html>
+
