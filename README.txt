@@ -6,3 +6,7 @@ src attribute of the img tags.
  
 The functions in the jquery can also be manupılated
 to suit the purpose required.
+
+
+
+gitHub remote repo  url https://github.com/archiejnr/git-prototype1.git
